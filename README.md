@@ -28,11 +28,13 @@ To get started with the **IntelligentTrader** project, follow these steps:
     pip install scikit-learn
     pip install Pillow
     ```
-3. Navigate to the project directory:
+3. Navigate to the website branch:
+4. git clone branch into folder
+5. Navigate to the project directory:
     ```bash
     cd /path/to/project
     ```
-4. Set up your email configuration:
+6. Set up your email configuration:
     - Open `settings.py` in the `tutorial` app.
     - Define the following constants for the **Forgot Password** feature:
       ```python
@@ -40,7 +42,7 @@ To get started with the **IntelligentTrader** project, follow these steps:
       EMAIL_HOST_PASSWORD = 'your-email-password'
       ```
     - Get credentials using [Google App Passwords](https://myaccount.google.com/apppasswords).
-5. Start the development server:
+7. Start the development server:
     ```bash
     python manage.py runserver
     ```
